@@ -1,0 +1,28 @@
+.text-dragut {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: #0a2c4f;
+    font-family: "Georgia", serif;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+  }
+  button {
+    display: block;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+      bottom: 20%;
+      left: 45%;
+  }
+
+  button.second {
+    display: block;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+      bottom: 20%;
+      left: 7%;
+  }

@@ -1,0 +1,22 @@
+<div class="mainpage" *ngIf="showMainPage">
+  <h1>Petshop Cluj!</h1>
+  <div class="cadran">
+    <p class="text-dragut">
+      Welcome to my Petshop!<br>
+      <button class="text-dragut" (click)="showBuyPet=true;
+      showBuyEquipment = false;
+      showMainPage = false;">Buy a pet</button> <br>
+      or
+      <br>
+      <button class="text-dragut" (click)="showBuyPet=false;
+      showBuyEquipment = true;
+      showMainPage = false;">Buy something for your pet</button>
+    </p>
+  </div>
+</div>
+<div class="buypetpage" *ngIf="showBuyPet">
+<app-buy-pet (returnMainPage)="showBuyPet=false; showMainPage=true; showBuyEquipment=false;"></app-buy-pet>
+</div>
+<div class="buyequipmentpage" *ngIf="showBuyEquipment">
+<app-buy-equipment (returnMainPage)="showBuyPet=false; showMainPage=true; showBuyEquipment=false;"></app-buy-equipment>
+</div>

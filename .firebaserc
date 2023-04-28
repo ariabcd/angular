@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "petshop-website-4b61b": {
+      "hosting": {
+        "petshop-website": [
+          "petshop-website-4b61b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "petshop-website-4b61b"
+  }
+}

@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #0a2c4f;
+  text-shadow: 4px 4px #8198b7;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.cadran {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-dragut {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  color: #0a2c4f;
+  font-family: "Georgia", serif;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+}
